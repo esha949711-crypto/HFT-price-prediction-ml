@@ -1,0 +1,18 @@
+HFT Project Assignment Modification
+
+Original:
+- Classification
+- Target: _5s_side
+- Classification models
+- Accuracy
+
+Modified:
+- Regression
+- Target: future_trade_price_5s
+- RandomForestRegressor + HistGradientBoostingRegressor
+- Mutual Information + SelectKBest feature selection
+- Ensemble = average of both model predictions
+- Metrics = MAE, RMSE, R²
+
+Why this is meaningful:
+The project no longer predicts a class label. It now predicts a numerical future trading price after approximately 5 seconds, which changes the ML problem, model types, feature-selection objective, and evaluation metrics.
