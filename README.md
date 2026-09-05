@@ -4,7 +4,7 @@ Machine Learning regression project for predicting the **future trade price afte
 
 ## 🎯 Objective
 
-Convert the original **classification problem into a regression problem** that predicts the actual future trade price after 5 seconds.
+Convert the original **classification problem into a regression problem** to predict the actual future trade price after 5 seconds.
 
 ## 🔄 Changes Made
 
@@ -53,17 +53,19 @@ python modelling_pipeline.py
 ## 📁 Main Files
 
 ```text
-data.csv
-modelling_pipeline.py
-modelling_pipeline_backup.py
-requirements.txt
-metrics.json
-feature_selector.joblib
-hist_gradient_boosting_regressor.joblib
-README.md
-ASSIGNMENT_MODIFICATION.txt
+HFT-price-prediction-ml/
+│
+├── data.csv
+├── modelling_pipeline.py
+├── modelling_pipeline_backup.py
+├── requirements.txt
+├── metrics.json
+├── feature_selector.joblib
+├── hist_gradient_boosting_regressor.joblib
+├── ASSIGNMENT_MODIFICATION.txt
+└── README.md
 ```
 
-## 👩‍💻 Project
+## 📌 Project
 
 **HFT Price Prediction — Modified Regression Version**
