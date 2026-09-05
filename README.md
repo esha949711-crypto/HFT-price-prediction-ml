@@ -1,10 +1,10 @@
 # HFT Price Prediction — Regression
 
-Machine Learning project for predicting the **future trade price after 5 seconds** using High-Frequency Trading (HFT) data.
+Machine Learning regression project for predicting the **future trade price after 5 seconds** using High-Frequency Trading (HFT) data.
 
 ## 🎯 Objective
 
-Convert the original **classification problem into a regression problem** to predict an actual future trade price.
+Convert the original **classification problem into a regression problem** that predicts the actual future trade price after 5 seconds.
 
 ## 🔄 Changes Made
 
@@ -14,7 +14,7 @@ Convert the original **classification problem into a regression problem** to pre
 * Feature Selection → Mutual Information + SelectKBest
 * Evaluation → MAE, RMSE, R²
 * Ensemble → Average predictions from both models
-* Split → 80% Training / 20% Testing (chronological)
+* Data Split → 80% Training / 20% Testing (chronological)
 
 ## 🛠️ Technologies
 
@@ -38,8 +38,15 @@ Convert the original **classification problem into a regression problem** to pre
 
 ## 🚀 How to Run
 
+Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+Run the modelling pipeline:
+
+```bash
 python modelling_pipeline.py
 ```
 
@@ -48,14 +55,15 @@ python modelling_pipeline.py
 ```text
 data.csv
 modelling_pipeline.py
-README.md
+modelling_pipeline_backup.py
 requirements.txt
-random_forest_regressor.joblib
-hist_gradient_boosting_regressor.joblib
-feature_selector.joblib
-features.txt
 metrics.json
+feature_selector.joblib
+hist_gradient_boosting_regressor.joblib
+README.md
+ASSIGNMENT_MODIFICATION.txt
 ```
 
 ## 👩‍💻 Project
+
 **HFT Price Prediction — Modified Regression Version**
